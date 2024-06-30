@@ -1,0 +1,20 @@
+# config.yml
+
+# 是否阻止Creeper爆炸破坏方块
+preventCreeperDamage: true
+
+# 是否阻止末影人搬运方块
+preventEndermanMoveBlock: true
+
+# 是否阻止末影龙破坏方块
+preventDragonDamage: true
+
+# Creeper防爆生效世界
+creeperWorlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# 防止末影人搬运方块生效世界
+endermanWorlds:
+  - world

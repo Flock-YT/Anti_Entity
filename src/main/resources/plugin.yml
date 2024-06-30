@@ -1,0 +1,4 @@
+name: Anti-Entity
+version: '${project.version}'
+main: me.lele.antientity.Anti_Entity
+api-version: '1.21'
