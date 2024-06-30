@@ -6,8 +6,6 @@ import me.lele.antientity.listener.EndermanBlockChangeListener;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.List;
-
 public final class Anti_Entity extends JavaPlugin {
 
     @Override

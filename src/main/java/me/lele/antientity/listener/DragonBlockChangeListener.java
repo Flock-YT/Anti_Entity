@@ -8,8 +8,6 @@ import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.event.entity.EntityChangeBlockEvent;
 import org.bukkit.entity.EntityType;
 
-import java.util.List;
-
 public class DragonBlockChangeListener implements Listener {
 
     private final Anti_Entity plugin;
