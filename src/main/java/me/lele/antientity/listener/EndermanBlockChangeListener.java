@@ -1,6 +1,7 @@
 package me.lele.antientity.listener;
 
 import me.lele.antientity.Anti_Entity;
+
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
