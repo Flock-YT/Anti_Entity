@@ -46,14 +46,18 @@ jobs:
           name: bukkit-plugin
           path: target
 
+      - name: get-pom-version
+        id: pom-version
+        uses: PERES-Richard/maven-get-version-action@v3.0.0
+
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.VERSION }}
-          release_name: Release ${{ env.VERSION }}
+          tag_name: ${{ steps.pom-version.outputs.version }}
+          release_name: Release ${{ steps.pom-version.outputs.version }}
           draft: false
           prerelease: false
 
