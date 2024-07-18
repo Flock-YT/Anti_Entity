@@ -36,9 +36,6 @@ jobs:
           name: bukkit-plugin
           path: target/*.jar
 
-      - name: Get current pom version of project
-        uses: PERES-Richard/maven-get-version-action@v3.0.0
-
 
   release:
     needs: build
@@ -50,6 +47,9 @@ jobs:
         with:
           name: bukkit-plugin
           path: target
+
+      - name: Get current pom version of project
+        uses: PERES-Richard/maven-get-version-action@v3.0.0
 
       - name: Create GitHub Release
         id: create_release
