@@ -6,7 +6,7 @@
 
   <groupId>me.lele</groupId>
   <artifactId>Anti-Entity</artifactId>
-  <version>1.0</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>Anti-Entity</name>
